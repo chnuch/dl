@@ -22,7 +22,7 @@ def OR_logicFunction(x):
     return perceptronModel(x, w, b) 
 
 # Testing the Perceptron Model 
-test1 = np.array([0, 0]) 
+test1 = np.array([0, 1]) 
 test2 = np.array([1, 1]) 
 test3 = np.array([0, 0]) 
 test4 = np.array([1, 0]) 
